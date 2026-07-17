@@ -1,9 +1,11 @@
-# Claude Platform release notes RSS — GitHub Pages
+# Hosted AI release-note RSS feeds
 
-This repository converts the official Claude Platform release-notes page into RSS 2.0 and hosts it free on GitHub Pages.
+This repository publishes three free RSS 2.0 feeds on GitHub Pages:
 
-The GitHub Action runs daily at 11:17 UTC and whenever `main` changes. It publishes the feed at:
+- `feed.xml` — combined Claude Platform and Claude Apps release notes
+- `microsoft-365-copilot.xml` — Microsoft 365 Copilot release notes
+- `chatgpt.xml` — ChatGPT release notes
 
-`https://YOUR-USERNAME.github.io/claude-release-notes-rss/feed.xml`
+The GitHub Action rebuilds the feeds daily at 11:17 UTC and whenever `main` changes. Generated files are committed back to the repository so scheduled workflows remain active on GitHub and there is a visible update history.
 
-The feed contains one item per dated release-note section. Stable source anchors are used as GUIDs so newsletter software can deduplicate items. If the upstream structure changes and no entries are found, the build fails instead of publishing an empty feed.
+ChatGPT's Help Center uses Cloudflare protection for automated clients, so that source is read through Jina Reader; every item still links to the canonical OpenAI Help Center article.
