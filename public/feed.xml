@@ -5,9 +5,23 @@
     <link>https://platform.claude.com/docs/en/release-notes/overview</link>
     <description>Combined Claude Platform and Claude Apps release notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 16:45:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 16:09:44 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/claude-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Platform updates — July 17, 2026</title>
+      <link>https://platform.claude.com/docs/en/release-notes/overview#july-17-2026</link>
+      <guid isPermaLink="false">https://platform.claude.com/docs/en/release-notes/overview#july-17-2026</guid>
+      <pubDate>Fri, 17 Jul 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<ul>
+<li>The legacy <strong>Workbench</strong> (<a href="https://platform.claude.com/workbench">platform.claude.com/workbench</a>) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated <a href="https://platform.claude.com/playground">Workbench</a>. You can export any data you want to keep from the banner and under your <strong>Organizational Settings</strong>. For more, see <a href="https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench">How do I use the Workbench?</a> in the Claude Help Center.</li>
+<li>The experimental prompt tools APIs for generating, improving, and templatizing prompts (<code>/v1/experimental/generate_prompt</code>, <code>/v1/experimental/improve_prompt</code>, and <code>/v1/experimental/templatize_prompt</code>) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error.</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<ul>
+<li>The legacy <strong>Workbench</strong> (<a href="https://platform.claude.com/workbench">platform.claude.com/workbench</a>) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated <a href="https://platform.claude.com/playground">Workbench</a>. You can export any data you want to keep from the banner and under your <strong>Organizational Settings</strong>. For more, see <a href="https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench">How do I use the Workbench?</a> in the Claude Help Center.</li>
+<li>The experimental prompt tools APIs for generating, improving, and templatizing prompts (<code>/v1/experimental/generate_prompt</code>, <code>/v1/experimental/improve_prompt</code>, and <code>/v1/experimental/templatize_prompt</code>) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error.</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Claude Platform updates — July 15, 2026</title>
       <link>https://platform.claude.com/docs/en/release-notes/overview#july-15-2026</link>
